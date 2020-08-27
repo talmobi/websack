@@ -1,0 +1,58 @@
+{
+	"name": "websack",
+	"version": "0.0.0",
+	"description": "download and organize unpkg.com (or any url) scripts",
+	"main": "src/main.js",
+	"bin": {
+		"websack": "./bin/cli.js"
+	},
+	"files": [
+		"src/main.js",
+		"bin/cli.js",
+		"help.txt"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"websack",
+		"unpkg",
+		"umd",
+		"downloader",
+		"installer",
+		"bundler",
+		"concat"
+	],
+	"author": "talmobi <talmo.christian@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/talmobi/websack"
+	},
+	"bugs": {
+		"url": "https://github.com/talmobi/websack/issues",
+		"email": "talmo.christian@gmail.com"
+	},
+	"websack": {
+		"vendor/dev": {
+			"skipped-example": "https://unpkg.com/react@16.7.0/umd/react.development.js",
+			"bundle": "vendor-dev.js",
+			"react": "https://unpkg.com/react@16.7.0/umd/react.development.js",
+			"react-dom": "https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"
+		},
+		"vendor/prod": {
+			"bundle": "vendor-prod.min.js",
+			"react": "https://unpkg.com/react@16.7.0/umd/react.production.min.js",
+			"react-dom": "https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js"
+		}
+	},
+	"dependencies": {
+		"got": "~11.5.2",
+		"graceful-fs": "~4.2.4",
+		"minimist": "~1.2.5",
+		"mkdirp": "~1.0.4",
+		"rimraf": "~3.0.2"
+	},
+	"devDependencies": {}
+}
