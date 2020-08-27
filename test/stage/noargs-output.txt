@@ -1,0 +1,20 @@
+unrecognized command
+websack help      - print this help text
+websack download  - download files configured in the package.json
+websack bundle    - bundles up installed files into single file bundles
+websack install   - download + bundle
+
+example package.json config:
+"websack": {
+  "dev": {
+    "bundle": "vendor-dev.js",
+    "react": "https://unpkg.com/react@16.7.0/umd/react.development.js",
+    "react-dom": "https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"
+  },
+  "prod": {
+    "bundle": "vendor-prod.min.js",
+    "react": "https://unpkg.com/react@16.7.0/umd/react.production.min.js",
+    "react-dom": "https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js"
+  }
+}
+

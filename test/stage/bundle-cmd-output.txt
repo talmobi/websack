@@ -1,0 +1,3 @@
+skipping: websack/vendor/dev/skipped-example.js
+bundle saved: websack/bundles/vendor-dev.js
+bundle saved: websack/bundles/vendor-prod.min.js

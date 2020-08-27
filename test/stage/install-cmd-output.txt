@@ -1,0 +1,13 @@
+downloading: https://unpkg.com/react@16.7.0/umd/react.development.js
+ file saved: websack/vendor/dev/skipped-example.js
+downloading: https://unpkg.com/react@16.7.0/umd/react.development.js
+ file saved: websack/vendor/dev/react.js
+downloading: https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js
+ file saved: websack/vendor/dev/react-dom.js
+downloading: https://unpkg.com/react@16.7.0/umd/react.production.min.js
+ file saved: websack/vendor/prod/react.min.js
+downloading: https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js
+ file saved: websack/vendor/prod/react-dom.min.js
+skipping: websack/vendor/dev/skipped-example.js
+bundle saved: websack/bundles/vendor-dev.js
+bundle saved: websack/bundles/vendor-prod.min.js
