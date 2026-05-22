@@ -4,7 +4,7 @@
 	"description": "download and organize unpkg.com (or any url) scripts",
 	"main": "src/main.js",
 	"bin": {
-		"websack": "./bin/cli.js"
+		"websack": "bin/cli.js"
 	},
 	"files": [
 		"src/main.js",
@@ -28,7 +28,7 @@
 	"private": false,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/talmobi/websack"
+		"url": "git+https://github.com/talmobi/websack.git"
 	},
 	"bugs": {
 		"url": "https://github.com/talmobi/websack/issues",
