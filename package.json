@@ -48,7 +48,7 @@
 		}
 	},
 	"dependencies": {
-		"got": "~11.5.2",
+		"got": "~11.8.6",
 		"graceful-fs": "~4.2.4",
 		"minimist": "~1.2.5",
 		"mkdirp": "~1.0.4",
